@@ -1,4 +1,4 @@
-/*#include "gtest/gtest.h"
+#include "gtest/gtest.h"
 #include "../src/InvertedIndex.cpp"
 #include "../src/SearchEngine.cpp"
 
@@ -143,4 +143,4 @@ static TEST(TestCaseSearchServer, TestTop5) {
     std::vector<std::vector<RelativeIndex>> result = srv.search(request, 5);
     ASSERT_EQ(result, expected);
 }
-*/
+
